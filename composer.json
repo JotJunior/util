@@ -1,0 +1,24 @@
+{
+    "name": "jotjunior/util",
+    "type": "Module",
+    "description": "Módulo com classes úteis ao desenvolvimento",
+    "keywords": ["doctrine2", "php", "zf2", "util"],
+    "homepage": "",
+    "license": "Private License",
+    "authors": [
+        {
+            "name": "João G. Zanon Jr.",
+            "email": "jot@jot.com.br"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "zendframework/zend-view": "~2.1",
+        "zendframework/zend-validator": "~2.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "Util": "src/"
+        }
+    }
+}
